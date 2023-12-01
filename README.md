@@ -31,20 +31,20 @@
 
 ***
 **:bookmark_tabs: В корневом каталоге проекта содержаться:**
-* [config.py](https://github.com/DenisZhutaev/Final_work_QAP1031/blob/master/config.py) - содержит переменные используемые в проекте;
-* [README.md](https://github.com/DenisZhutaev/Final_work_QAP1031/blob/master/README.md) - содержит информацию в целом о проекте;
-* [requirements.txt](https://github.com/DenisZhutaev/Final_work_QAP1031/blob/master/requirements.txt) - содержит все библиотеки и зависимости проекта.
+* [config.py](https://github.com/FoxMurdl/Final_Work_QAP/blob/main/config.py) - содержит переменные используемые в проекте;
+* [README.md](https://github.com/FoxMurdl/Final_Work_QAP/blob/main/README.md) - содержит информацию в целом о проекте;
+* [requirements.txt](https://github.com/FoxMurdl/Final_Work_QAP/blob/main/requirements.txt) - содержит все библиотеки и зависимости проекта.
 ***
 **:bookmark_tabs: Директория driver содержит:**
-* [chromedriver.exe](https://github.com/DenisZhutaev/Final_work_QAP1031/tree/master/chromedriver_mac_arm64) - драйвер для управления браузером Chrome.
+* [chromedriver.exe](https://github.com/FoxMurdl/Final_Work_QAP/tree/main/chromedriver_mac_arm64) - драйвер для управления браузером Chrome.
 ***
 **:bookmark_tabs: Директория tests содержит:**
-* [test_authorization_interface.py](https://github.com/DenisZhutaev/Final_work_QAP1031/blob/master/tests/test_authorization_interface.py) - файл автотестов;
-* [conftest.py](https://github.com/DenisZhutaev/Final_work_QAP1031/blob/master/tests/conftest.py) - условия для выполнения тестовых задач.
+* [test_authorization_interface.py](https://github.com/FoxMurdl/Final_Work_QAP/blob/main/tests/test_authorization_interface.py) - файл автотестов;
+* [conftest.py](https://github.com/FoxMurdl/Final_Work_QAP/blob/main/tests/conftest.py) - условия для выполнения тестовых задач.
 ***
 **:bookmark_tabs: Директория pages содержит:**
-* [locators.py](https://github.com/DenisZhutaev/Final_work_QAP1031/blob/master/pages/locators.py) - содержит описание локаторов проекта;
-* [base_page.py](https://github.com/DenisZhutaev/Final_work_QAP1031/blob/master/pages/base_page.py) - содержит базовые функции и методы.
+* [locators.py](https://github.com/FoxMurdl/Final_Work_QAP/blob/main/pages/locators.py) - содержит описание локаторов проекта;
+* [base_page.py](https://github.com/FoxMurdl/Final_Work_QAP/blob/main/pages/base_page.py) - содержит базовые функции и методы.
 ***
 
 
@@ -57,7 +57,7 @@
  
 * эквивалентное разбиение
 * анализ граничных значений
-* [диаграмма перехода состояния (.jpeg)](https://drive.google.com/file/d/1EbByaysAoDMtZd6_pkDaaARC3j56-KKM/view?usp=sharing)
+* [диаграмма перехода состояния (.jpeg)](https://drive.google.com/file/d/152l0FcTk--jXNCu6KO0q1XThLinKYvAi/view?usp=sharing)
 
 
 ### Инструменты, которые применялись для тестирования.
@@ -70,6 +70,6 @@
 ### Запуск тестов:
 * установить все библиотеки и зависимости: `pip install -r requirements.txt`;
 * загрузите [Selenium WebDriver](https://chromedriver.chromium.org/downloads) (выберите версию, совместимую с вашим браузером) и прописать путь к драйверу в переменную PATH в файле config.py;
-* запустить тест: `python -m pytest -v --driver Chrome --driver-path Final_work_QAP1031/chromedriver_mac_arm64/chromedriver tests/test_authorization_interface.py`.
+* запустить тест: `python -m pytest -v --driver Chrome --driver-path Final_work_QAP/chromedriver_mac_arm64/chromedriver tests/test_authorization_interface.py`.
 
 
