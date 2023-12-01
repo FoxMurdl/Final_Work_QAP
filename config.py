@@ -9,7 +9,7 @@ PATH = "chromedriver_mac_arm64/chromedriver"
 
 # Валидные данные для авторизации
 valid_email = 'TEST_VALID_EMAIL'
-valid_phone = 'TEST_VALID_PHONE (+79876543210)'
+valid_phone = 'TEST_VALID_PHONE (+79774150405)'
 valid_password = 'TEST_VALID_PASSWORD'
 
 # Невалидные данные для авторизации
